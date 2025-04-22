@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="./packages/css/styles.css">
+
+        <title>Said</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Said Benli</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i>Anasayfa
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>Hakkımda
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i>Becerilerim
+                            </a>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Eğitim
+                            </a>
+                        </li>
+
+
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i>Hizmetler
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i>İletişim
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/saidbenli/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://github.com/sbenli10" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                    <image class="home__blob-img" x="" xlink:href="packages/images/said4.png" />
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Merhaba,Ben Said Benli</h1>
+                            <h3 class="home__subtitle">Web Geliştirici</h3>
+                            <p class="home__description">Yazılım geliştirme, sistem tasarımı ve veri yönetimi konularında tecrübeli; kaliteli ve sürdürülebilir kod üretmeye odaklıyım.</p>
+                            <a href="#contact" class="button button--flex home__button">
+                                İletişime Geç<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">Benim Hakkımda</h2>
+                <span class="section__subtitle">Benim Tanıtımım</span>
+
+                <div class="about__container container grid">
+                    <img src="packages/images/said5.png" alt="" class="about__img">
+                    <div class="about__data">
+                        <p class="about__description">
+                            Bilgisayar Bilimi öğrencisi ve aynı zamanda aktif olarak yazılım geliştiricisiyim.
+                            Yazılım geliştirme, sistem mimarisi ve veritabanı yönetimi alanlarında güçlü bir altyapıya sahibim.
+                            Özellikle C#, .NET ve Entity Framework Core ile kurumsal düzeyde projeler geliştirme konusunda deneyimliyim.
+                            Hastane otomasyon sistemleri, veri tabanlı çözümler ve dijital sistemlerin entegrasyonu üzerine çalışmalar yürütüyor, kullanıcı odaklı ve sürdürülebilir yazılımlar üretmeye özen gösteriyorum.
+                            Yenilikçi teknolojileri takip etmeyi, öğrenmeyi ve bu bilgileri kaliteli işlere dönüştürmeyi bir tutku haline getirdim.
+                            Takım çalışmasına açık, çözüm odaklı ve sürekli gelişmeye inanan bir yazılımcıyım.
+                        </p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Yıl <br> Deneyim</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Tamamlandı <br> Sertifikalar</span>
+                            </div>
+
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="packages/CVSaid Benli.pdf/" class="button button--flex">
+                                CV İNDİR<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Becerilerim</h2>
+                <span class="section__subtitle">Teknik seviyelerim</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILL-1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-analytics skills__icon"></i>
+                                <div>
+                                    <h1 class="skills__title">Web Geliştiricisi</h1>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JAVA</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__tab"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sql"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JAVASCRİPT</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__google"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__google"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__google"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--==================== SKILLS 2 ====================-->
+                        <!--==================== SKILLS 3 ====================-->
+
+            </section>
+
+            <!--==================== EĞİTİM / NİTELİKLERİM ====================-->
+            <section class="qualification__section" id="qualification">
+                <h2 class="section__title">NİTELİKLERİM</h2>
+                <span class="section__subtitle">Benim kişisel yolculuğum</span>
+
+                <div class="qualification__container container">
+                    <!-- Sekmeler -->
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Eğitim
+                        </div>
+                    </div>
+
+                    <!-- İçerik -->
+                    <div class="qualification__sections">
+                        <div class="qualification__content qualification__active" data-content>
+
+                            <!-- Eğitim 1 -->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Diploma in English</h3>
+                                    <span class="qualification__subtitle">University Of The People, ABD</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 - 2026
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!-- Eğitim 2 -->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">B1 Gelişmişlik Seviyesi</h3>
+                                    <span class="qualification__subtitle">Amerika Dil Okulları</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022 - 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Eğitim 3 -->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Yazılım Uzmanlığı Eğitimi</h3>
+                                    <span class="qualification__subtitle">Ari Bilgi Yazılım Akademisi</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2024 - 2025
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!-- Eğitim 4 -->
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- Sonuncuda çizgi yok -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Makine Öğrenimi ile Yapay Zeka Sertifikası</h3>
+                                    <span class="qualification__subtitle">Oracle | Online</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2024
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Hizmetler</h2>
+                <span class="section__subtitle">Ne Vaat ediyorum?</span>
+
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-analytics skills__icon"></i>
+                            <h3 class="services__title">Full Stack Developer<br></h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Full Stack Developer<br></h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Ölçeklenebilir web uygulamaları geliştirme ve veri sistemlerini analiz ederek akıllı ve verimli çözümler üretme konusunda tutkulu bir Full Stack Developer’ım.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>C#, .NET ve SQL ile projeler geliştiriyor, Full Stack Developer olma hedefiyle yazılım dünyasında kendimi geliştiriyorum.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> İstatistiksel ve mantıksal teknikleri sistematik olarak uygulayarak çözümler geliştiriyorum."</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>"Veri görselleştirmesi, raporlama ve dashboard hazırlama konusunda yetkinlik kazanarak Full Stack Developer olarak gelişiyorum.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title">Web Developer<br></h3>
+                        </div>
+                        <span class="button button--flex button--small button--link services__button">
+                            View more
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Web  Developer<br></h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Kullanıcı arayüzünü geliştiriyorum.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Web sayfası geliştirme.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>"Web Developer olarak, kullanıcı deneyimi öğeleriyle etkileşimler oluşturuyor ve web tasarımında etkileşimli çözümler geliştiriyorum."</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== PROJECT IN MIND ====================-->
+                <section class="project section">
+
+                    <div class="project__bg">
+                        <div class="project__container container grid">
+                            <div class="project__data">
+                                <h2 class="project__title">Yeni bir projen mi var?</h2>
+                                <p class="project__description">Şimdi bana ulaşın ve Web geliştirme projelerinizde yardımcı olayım.</p>
+                                <a href="#contact" class="button button--flex button--white">
+                                    Bana ulaşın
+                                    <i class="uil uil-message project__icon button__icon"></i>
+                                </a>
+
+                            </div>
+                            <!-- <img src="assets/img/project.png" alt="" class="project__img"> -->
+                        </div>
+                    </div>
+                    <!--==================== CONTACT ME ====================-->
+                    <section class="contact section" id="contact">
+                        <h2 class="section__title">Bana ulaşın</h2>
+                        <span class="section__subtitle">İletişime geçin</span>
+
+                        <div class="contact__container container grid">
+                            <div>
+                                <div class="contact__information">
+                                    <i class="uil uil-phone-alt contact__icon"></i>
+                                    <div>
+                                        <h3 class="contact__title">Çağrı</h3>
+                                        <span class="contatc__subtitle">(+90) 555 896 5990</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact__information">
+                                    <i class="uil uil-envelope contact__icon"></i>
+                                    <div>
+                                        <h3 class="contact__title">E-mail</h3>
+                                        <span class="contatc__subtitle">benlisaid2@gmail.com</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact__information">
+                                    <i class="uil uil-map-marker contact__icon"></i>
+                                    <div>
+                                        <h3 class="contact__title">Konum</h3>
+                                        <span class="contatc__subtitle">İstanbul, Türkiye</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- GÜNCELLENMİŞ FORM -->
+                            <form action="https://formspree.io/f/xblorwln" method="POST" class="contact__form grid" id="contact-form">
+                                <div class="contact__inputs grid">
+                                    <div class="contact__content">
+                                        <label for="name" class="contact__label">İsim</label>
+                                        <input type="text" name="name" id="name" class="contact__input" placeholder="Adınızı girin" onfocus="this.value=''">
+                                    </div>
+
+                                    <div class="contact__content">
+                                        <label for="email" class="contact__label">E-mail</label>
+                                        <input type="email" name="email" id="email" class="contact__input" placeholder="E-mail adresiniz" onfocus="this.value=''">
+                                    </div>
+                                </div>
+
+                                <div class="contact__content">
+                                    <label for="subject" class="contact__label">Konu</label>
+                                    <input type="text" name="subject" id="subject" class="contact__input" placeholder="Konu girin" onfocus="this.value=''">
+                                </div>
+
+                                <div class="contact__content">
+                                    <label for="message" class="contact__label">Açıklama</label>
+                                    <textarea name="message" id="message" cols="0" rows="7" class="contact__input" placeholder="Mesajınızı buraya yazın" onfocus="this.value=''"></textarea>
+                                </div>
+
+                                <div>
+                                    <button type="submit" class="button button--flex">
+                                        Mesaj Gönder
+                                        <i class="uil uil-message button__icon"></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+
+            <div class="footer__bg">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Said Benli</h1>
+                        <span class="footer__subtitle">Web Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Hizmetler</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#qualification" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Eğitim
+                            </a>
+                        </li>
+
+
+                        <li>
+                            <a href="#contact" class="footer__link">İletişim</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.instagram.com/sbenli10/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer__copy">&#169; sbenli10. Tüm hakları saklıdır.</p>
+            </div>
+        </footer>
+
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="./packages/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="./packages/js/main.js"></script>
+    </body>
+
+</html>
